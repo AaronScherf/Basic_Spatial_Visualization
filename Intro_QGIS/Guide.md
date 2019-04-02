@@ -1,7 +1,16 @@
+# Intro to QGIS
 
-## Intro to QGIS
+### Contents:
 
-**Contents:**
+[Downloading QGIS and Other Links](#Downloading QGIS and Other Links) 
+[QGIS Environment](#QGIS Environment)
+[Spatial Vector Data](#Spatial Vector Data)
+[Basemaps using QuickMapServices Plugin](#Basemaps using QuickMapServices Plugin)
+[Spatial Coordinate Data](#Spatial Coordinate Data)
+[Importing Non-Spatial Data & Joining Data](#Importing Non-Spatial Data & Joining Data)
+[Raster Image Data](#Raster Image Data)
+[More Fun Options](#More Fun Options)
+[Exporting Maps](#Exporting Maps)
 
 
 ## The Data: NYC Census, Bike, and Forest Data {#the-data-nyc-census-bike-and-forest-data}
@@ -101,18 +110,17 @@ To follow along with this guide, [download the repository on GitHub here](https:
 
 
 
-## Quick Introduction to Quantum GIS (QGIS) {#quick-introduction-to-quantum-gis-qgis}
+## Downloading QGIS and Other Links
 
-
-
-*   [Resources for Learning QGIS - Data Scholars Discovery Guide](https://data-scholars-discovery.github.io/contents/qgis)
 *   [Downloading QGIS 3.4 (FREE)](https://qgis.org/en/site/forusers/download.html)
     *   Get Version 3.4 to Use All Plugins!
+    
+*   [Resources for Learning QGIS - Data Scholars Discovery Guide](https://data-scholars-discovery.github.io/contents/qgis)
 *   [Udemy: Learn to Use QGIS](https://www.udemy.com/draft/149366/)
 *   [GIS at Tufts: QGIS Guide](https://sites.tufts.edu/gis/quantum-gis-qgis-tutorials-tip-sheets/)
 
 
-### QGIS Environment {#qgis-environment}
+## QGIS Environment
 
 QGIS has become the leading standard in open source spatial data software. Its primary functions are importing, manipulating, and visualizing geographic data, though it also has useful tools for connecting non-spatial data and performing simple analysis. It has a standard, photoshop-style user interface based on layers of data displayed in a visualization window, with a host of tools and settings in the bars at the top.
 
@@ -130,7 +138,7 @@ There are many options for customizing the QGIS environment, but the main additi
 
 
 
-### Spatial Vector Data {#spatial-vector-data}
+## Spatial Vector Data
 
 The primary type of spatial data which you can work with is vector files. These are often traditional [shapefiles](https://en.wikipedia.org/wiki/Shapefile), a designation created by [Esri ](https://en.wikipedia.org/wiki/Esri)(the folks behind ArcGIS), but can also include [Keyhole Markup Language](https://en.wikipedia.org/wiki/Keyhole_Markup_Language) (KML) and KMZ (zipped KML) file types. Fundamentally they are all collections of coordinates organized into shapes (points, lines, and polygons). These shapes are often coded with unique identifiers connected to numeric, text, or logical data variables. Shapefiles are almost always associated with a database support file, which QGIS can import with the geometry as an associated data table, much like a CSV file.
 
@@ -170,7 +178,7 @@ If you want to see the data variables associated with the shapefile, you can ope
 
 
 
-### Basemaps using QuickMapServices Plugin {#basemaps-using-quickmapservices-plugin}
+## Basemaps using QuickMapServices Plugin
 
 Most maps include some form of base layer, usually a map of political boundaries or satellite imagery. These can be tiresome to find and download online for your specific map extent. Programmers, being lazy, have thus developed packages to automatically download and import a base layer. These user created packages are maintained by volunteers and as such can be out of date for newer versions of QGIS, but most "stable builds" have a full suite of packages for baselayers. If you are using version 3.4 or below you should have access to the QuickMapServices (QMS) plugin, which hosts maps made by the [Open Street Map](https://www.openstreetmap.org/) (OSM) project, one of the largest open source mapping projects in the world.
 
@@ -206,7 +214,7 @@ From there, to use the plugin just select the "Web" dropdown menu, then QuickMap
 
 
 
-### Spatial Coordinate Data {#spatial-coordinate-data}
+## Spatial Coordinate Data
 
 Another important type of spatial data is coordinate points. These are also stored as vectors, technically, but we import them most often from delimited text files (CSV's). If your data already contains columns for latitude and longitude, QGIS will automatically treat it as spatial data and assign it to the proper coordinate points (as determined by your project's coordinate reference system).
 
@@ -349,7 +357,7 @@ Feel free to experiment with different color and size options to see what you li
 
 
 
-### Importing Non-Spatial Data & Joining Data {#importing-non-spatial-data-&-joining-data}
+## Importing Non-Spatial Data & Joining Data
 
 One key feature of QGIS is its ability to import non-spatial data and join (merge or connect) it to spatial data layers. We can bring in a CSV file with no coordinates or geometry with the same "Add Delimited Text Layer" button as before.
 
@@ -478,7 +486,7 @@ Can you discern any patterns about the spatial relationship between bike acciden
 
 
 
-### Raster Image Data {#raster-image-data}
+## Raster Image Data
 
 The final form of data we'll cover in this intro is raster files. These are basically image files with associated geometry, usually composed of satellite imagery. There is a whole lot of science behind satellite imaging but for our purposes we just need to know that raster images record light bouncing off the Earth into space. This light can be in the visible wavelength (like a Google Earth map) or in non-visible wavelengths (like infrared). Different wavelengths can be useful for identifying particular objects or "classes" of land (or water).
 
@@ -562,7 +570,7 @@ Zoom in to check out how cool our raster layer is!
 
 
 
-### More Fun Options {#more-fun-options}
+## More Fun Options
 
 Select the bike collisions layer again to show the coordinate points on top of our raster layer and basemap. You can change the outside border of the points as well using the Symbology and Stroke color option. I set it to transparent and raised the opacity to 90%.
 
@@ -582,7 +590,7 @@ You can also try adding in the bike paths shapefile without the basemap. I liked
 
 
 
-### Exporting Maps {#exporting-maps}
+## Exporting Maps
 
 Having a cool map in QGIS is fun, but most of us are interested in sharing our maps with others. For that you typically want to export your map as an image or PDF file rather than a QGIS file (unfortunately not everyone has QGIS readily available). Use the Project dropdown on the top left and select the Import/Export tab to select "Export Map to Image…"
 
