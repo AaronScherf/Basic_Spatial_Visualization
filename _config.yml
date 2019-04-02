@@ -1,34 +1,34 @@
 # SITE CONFIGURATION
 baseurl: "/"
-url: "https://Data-Scholars-Discovery.github.io"
-title: Data Science Discovery Guide # site's title
-description: "A complete, beginner friendly guide to data science. Created and maintained by the Data Scholars: Discovery program at UC Berkeley." # used by search engines
+url: "https://aaronscherf.github.io/Basic_Spatial_Visualization/"
+title: Basic Spatial Visualization Guide # site's title
+description: "A beginner's guide to spatial data visualization via Tableau, QGIS, and more. Created and maintained by Aaron Scherf." # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Data Science Discovery Guide # blog's title
+  title: Basic Spatial Visualization Guide # blog's title
   avatar: assets/img/Berkeley_Data_Sciences.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
   # Header and footer text
-  header_text: A Beginner's Guide to Learning Data Science Online
+  header_text: A Beginner's Guide to Learning Spatial Visualization Online
   header_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
     Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: "berkeley.discovery.scholars@gmail.com" # Full email address, e.g. "sam@example.com"
+  email_address: "theaaronscherf@gmail.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
   gitlab:
-  github: "Data-Scholars-Discovery"
+  github: "AaronScherf"
   google_plus:
   instagram:
   keybase:
