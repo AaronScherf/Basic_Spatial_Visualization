@@ -93,7 +93,7 @@
 
 For this seminar, we will use a variety of different datasets concerned with bicycles, land cover, and census demographics for New York City. This data was chosen because NYC has a fantastic repository of open source data available for free online. The remaining data was downloaded from the Census Bureau website, particularly the American Factfinder, where both decennial Census data and American Community Survey (ACS) data is available free for download (see links above).
 
-To follow along with this guide, [download the repository on GitHub here](https://github.com/AaronScherf/Stata_for_Policy_Analysts/tree/Tableau_QGIS_Only) as a .zip folder. Then unzip the folder to a destination on your hard drive. The folder should contain 3 files and 4 sub-folders in its main directory, with a variety of files in each sub-folder. The relevant files are described in the table above; other files, particularly for spatial data, are "support files" which help programs import the main file of interest.
+To follow along with this guide, [download the repository on GitHub here](https://github.com/AaronScherf/Basic_Spatial_Visualization) as a .zip folder. Then unzip the folder to a destination on your hard drive (then delete everything but the NYC_Data folder if you'd like). The folder should contain 4 files in the main directory and 4 sub-folders, with a variety of files in each sub-folder. The relevant files are described in the table above. Other files, particularly for spatial data, are "support files" which help programs import the main file of interest.
 
 
 
