@@ -2,15 +2,23 @@
 
 ### Contents:
 
-[Downloading QGIS and Other Links](#Downloading QGIS and Other Links) 
-[QGIS Environment](#QGIS Environment)
-[Spatial Vector Data](#Spatial Vector Data)
-[Basemaps using QuickMapServices Plugin](#Basemaps using QuickMapServices Plugin)
-[Spatial Coordinate Data](#Spatial Coordinate Data)
-[Importing Non-Spatial Data & Joining Data](#Importing Non-Spatial Data & Joining Data)
-[Raster Image Data](#Raster Image Data)
-[More Fun Options](#More Fun Options)
-[Exporting Maps](#Exporting Maps)
+[Downloading QGIS and Other Links](https://github.com/AaronScherf/Basic_Spatial_Visualization/blob/master/Intro_QGIS/Guide.md#downloading-qgis-and-other-links) 
+
+[QGIS Environment](https://github.com/AaronScherf/Basic_Spatial_Visualization/blob/master/Intro_QGIS/Guide.md#qgis-environment)
+
+[Spatial Vector Data](https://github.com/AaronScherf/Basic_Spatial_Visualization/blob/master/Intro_QGIS/Guide.md#spatial-vector-data)
+
+[Basemaps using QuickMapServices Plugin](https://github.com/AaronScherf/Basic_Spatial_Visualization/blob/master/Intro_QGIS/Guide.md#basemaps-using-quickmapservices-plugin)
+
+[Spatial Coordinate Data](https://github.com/AaronScherf/Basic_Spatial_Visualization/blob/master/Intro_QGIS/Guide.md#spatial-coordinate-data)
+
+[Importing Non-Spatial Data & Joining Data](https://github.com/AaronScherf/Basic_Spatial_Visualization/blob/master/Intro_QGIS/Guide.md#importing-non-spatial-data--joining-data)
+
+[Raster Image Data](https://github.com/AaronScherf/Basic_Spatial_Visualization/blob/master/Intro_QGIS/Guide.md#raster-image-data)
+
+[More Fun Options](https://github.com/AaronScherf/Basic_Spatial_Visualization/blob/master/Intro_QGIS/Guide.md#more-fun-options)
+
+[Exporting Maps](https://github.com/AaronScherf/Basic_Spatial_Visualization/blob/master/Intro_QGIS/Guide.md#exporting-maps)
 
 
 ## The Data: NYC Census, Bike, and Forest Data {#the-data-nyc-census-bike-and-forest-data}
@@ -296,6 +304,7 @@ Click and drag the 12 and 22 values to the bottom of your list, between 7 and NA
 ![alt_text](images/Img_24.png "image_tooltip")
 
 
+
 ![alt_text](images/Img_25.png "image_tooltip")
 
 
@@ -305,6 +314,7 @@ This pulls up the "Change Symbol Color" window, with a color scale selector that
 ![alt_text](images/Img_26.png "image_tooltip")
 
 
+
 ![alt_text](images/Img_27.png "image_tooltip")
 
 
@@ -312,6 +322,7 @@ We still have a lot of points on our map, most of them with values of 0 or 1. Le
 
 
 ![alt_text](images/Img_28.png "image_tooltip")
+
 
 
 ![alt_text](images/Img_29.png "image_tooltip")
@@ -372,9 +383,6 @@ Let's select the "NYC_ACS_Data_Perc.csv" to bring in our census demographics dat
 
 
 This time make sure that "No geometry (attribute only table)" is selected under the Geometry definition options in the Data Source Manager window. Click "Add" and "Close".
-
-
-<p id="gdcalert39" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Img_38.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert40">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/Img_38.png "image_tooltip")
